@@ -47,10 +47,11 @@
 
 .episodes-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 20px;
-    justify-content: center;
-    align-items: start;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
 }
 
 .episodes-wrapper {
